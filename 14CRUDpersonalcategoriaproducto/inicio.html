@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDITA</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body onload="mostrarGatos('0');mostrarRazas()" class="text-center">
+    <a href="admin.html" class="btn btn-danger w-20 m-2 p-2">ADMIN</a>
+    <h1 class="bg-success text-white">ADOPCION DE GATOS</h1><hr>
+    RAZAS GATOS
+    <select name="" id="raza" class="form-control w-25 m-auto mb-3" onclick="mostrarGatos(this.value)"></select>    
+    <div class="container-fluid text-center m-auto w-50" id="listGatos">
+    </div>
+
+ 
+  
+    <script src="bootstrap.min.js"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="mainInicio.js"></script>
+</body>
+</html>
+ 
